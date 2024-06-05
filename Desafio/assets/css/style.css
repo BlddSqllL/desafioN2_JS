@@ -1,0 +1,34 @@
+#miPerro {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#modulos img {
+    width: 200px;
+    height: 200px;
+}
+
+#modulos {
+    display: flex;
+}
+
+.ejercicio3 { 
+    border: 1px solid;
+}
+
+#casillas {
+    display: flex;
+    justify-content: center;
+}
+
+#boton2 {
+    display: flex;
+    justify-content: center;
+}
+
+
