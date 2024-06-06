@@ -1,34 +1,103 @@
-#miPerro {
-    width: 200px;
-    height: 200px;
-}
+/* EJERCICIO N°1 */
 
-h1 {
-    text-align: center;
-}
-
-
-#modulos img {
-    width: 200px;
-    height: 200px;
-}
-
-#modulos {
+.ejercicio1 {
+    background-color: aquamarine;
     display: flex;
+    justify-content: center;
+    height: 300px;
+    margin: 0;
+    padding-top: 50px;
+    border-radius: 70%;
+    margin-bottom: 50px;
 }
+
+#miPerro {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;   
+}
+
+    /* EJERCICIO 2 */
+
+ h1 {
+    padding: 20px 0;
+    color: aquamarine;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+
+#ejercicio2 img {
+    width: 200px;
+    height: 200px;
+}
+
+#ejercicio2 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.modulo1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modulo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modulo3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modulo1 img{
+    border-radius: 10px;
+}
+
+.modulo2 img{
+    border-radius: 10px;
+}
+
+.modulo3 img{
+    border-radius: 10px;
+}
+
+#resultado {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 50px;
+
+} 
+
+/* EJERCICIO 3 */
 
 .ejercicio3 { 
-    border: 1px solid;
+    border: 4px solid;
 }
+
+h2 {   
+    text-align: center;
+    font-size: 40px;
+}
+
+    
 
 #casillas {
     display: flex;
     justify-content: center;
 }
 
-#boton2 {
-    display: flex;
-    justify-content: center;
-}
+
 
 

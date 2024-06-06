@@ -8,7 +8,7 @@ function cambiarBorde() {
         img.style.border = '';
         bordeRojo = false;
     } else {
-        img.style.border = '2px solid red';
+        img.style.border = '5px solid red';
         bordeRojo = true;
     }
 }
@@ -16,15 +16,16 @@ function cambiarBorde() {
 //ejercicio N°2
 function calcularStickers() {
     let cantidadSticker1 = Number(document.getElementById("sticker1").value);
-    let cantidadSticker2 = Number(document.getElementById("sticker2").value);
     let cantidadSticker3 = Number(document.getElementById("sticker3").value);
-
+    let cantidadSticker2 = Number(document.getElementById("sticker2").value);
+    
     let totalStickers = cantidadSticker1 + cantidadSticker2 + cantidadSticker3;
 
     if (totalStickers <= 10) {
         document.getElementById("resultado1").textContent = `Llevas ${totalStickers} stickers.`;
     } else {
         document.getElementById("resultado1").textContent = "Llevas demasiados stickers.";
+        
     }
 }
 
